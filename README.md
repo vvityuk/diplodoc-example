@@ -1,31 +1,13 @@
-# Documentation Template created by Diplodoc
+# Система координации поиска и спасения (SARC)
 
-Features:
-
-- initial project structure
-- dev server with hot reload
-- codespaces support
-- vscode tutorial via code tours
-
-## Initial project structure
-
-Initiatl project structure with basic content can be found within your public github repo "diplodoc-example/docs" 
-
-## Usage
-
-### Run locally by cloning repo:
+## Локальная разработка
 
 ```
-> git clone git@github.com:diplodoc-platform/documentation-template.git
-
-> cd documentation-template
-
 > npm start
 
 > listening on 0.0.0.0:8000
 
 ```
-now you have development server with hot reload runing and serving built documentation on `0.0.0.0:8000`
 
 ### github codespaces
 
