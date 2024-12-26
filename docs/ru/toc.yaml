@@ -3,7 +3,7 @@ href: index.yaml
 navigation:
   logo:
     text: СКПС / SARC
-    url: '../'
+    url: '/ru/'
     urlTitle: Вернуться на главную
     light:
       icon: '/_assets/logo.webp'
@@ -11,16 +11,16 @@ navigation:
     leftItems:
       - text: О системе
         type: 'link'
-        url: '/about/'
+        url: '/ru/about/'
       - text: Пользователям
         type: 'link'
-        url: '/usage/'
+        url: '/ru/usage/'
       - text: Интеграторам
         type: 'link'
-        url: '/integration/'
+        url: '/ru/integration/'
       - text: Разработчикам
         type: 'link'
-        url: '/development/'
+        url: '/ru/development/'
     rightItems:
       - type: controls
 items:
