@@ -1,10 +1,8 @@
 allowHTML: true
 breaks: false
-langs: ['ru']
 
 docs-viewer:
   project-name: diplodoc
-  langs: ['ru']
   favicon-src: https://storage.yandexcloud.net/diplodoc-www-assets/favicon/favicon.ico
   github-url-prefix: https://github.com/vvityuk/diplodoc-example/blob/main
   logo-link-preview: https://storage.yandexcloud.net/diplodoc-www-assets/navigation/diplodoc-logo.svg
