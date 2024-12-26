@@ -1,0 +1,74 @@
+title: СКПС / SARC
+href: index.yaml
+navigation:
+  logo:
+    text: СКПС / SARC
+    url: '../'
+    urlTitle: Вернуться на главную
+    light:
+      icon: '_assets/logo.png'
+  header:
+    leftItems:
+      - text: О системе
+        type: 'link'
+        url: '/about/'
+      - text: Пользователям
+        type: 'link'
+        url: '/usage/'
+      - text: Интеграторам
+        type: 'link'
+        url: '/integration/'
+      - text: Разработчикам
+        type: 'link'
+        url: '/development/'
+    rightItems:
+      - type: controls
+items:
+  - name: О системе
+    labeled: true
+    href: about/index.md
+    items:
+      - name: Концепция
+        href: about/concept.md
+      - name: Обзор системы
+        href: about/overview.md
+
+  - name: Пользователям
+    labeled: true
+    href: usage/index.md
+
+  - name: Интеграторам
+    labeled: true
+    href: integration/index.md
+
+  - name: Разработчикам
+    labeled: true
+    href: development/index.md
+    items:
+      - name: Предметная область
+        href: domain/index.md
+        items:
+          - name: Пользователи
+            href: domain/users/index.md
+          - name: Данные
+            href: domain/data/index.md
+            items:
+              - name: Заявка на поиск
+                href: domain/data/issue.md
+      - name: Общие требования
+        href: development/reqspec/index.md
+        items:
+          - name: Низкий порог входа
+            href: development/reqspec/low-entry-barrier.md
+      - name: Архитектура
+        href: development/architecture/index.md
+        items:
+          - name: Общие принципы архитектуры
+            href: development/architecture/base.md
+          - name: Модель данных
+            href: development/architecture/model/index.md
+            items:
+                - name: Заявка на поиск (Issue)
+                  href: development/architecture/model/issue.md
+                - name: Пользователь (User)
+                  href: development/architecture/model/user.md
