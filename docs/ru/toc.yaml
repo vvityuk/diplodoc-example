@@ -6,7 +6,7 @@ navigation:
     url: '/ru/'
     urlTitle: Вернуться на главную
     light:
-      icon: '/_assets/logo.webp'
+      icon: '/ru/_assets/logo.webp'
   header:
     leftItems:
       - text: О системе
