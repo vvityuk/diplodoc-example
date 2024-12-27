@@ -58,8 +58,12 @@ items:
       - name: Общие требования
         href: development/reqspec/index.md
         items:
-          - name: Низкий порог входа
-            href: development/reqspec/low-entry-barrier.md
+          - name: 'RS0001: Порядок работы с требованиями'
+            href: development/reqspec/RS0001.md
+          - name: 'RS0001: Низкий порог входа'
+            href: development/reqspec/RS0002.md
+          - name: 'RS0003: Мониторинг'
+            href: development/reqspec/RS0003.md
       - name: Архитектура
         href: development/architecture/index.md
         items:
@@ -72,3 +76,43 @@ items:
                   href: development/architecture/model/issue.md
                 - name: Пользователь (User)
                   href: development/architecture/model/user.md
+      - name: Прочее
+        labeled: true
+        items:
+          - name: Пожелания и запросы
+            href: misc/requests/index.md
+            items:
+              - name: 'FR0001: Интеграция ГПА'
+                href: misc/requests/FR0001.md
+              - name: 'FR0002: Передача снимков с БПЛА по радиоканалу'
+                href: misc/requests/FR0002.md
+              - name: 'FR0003: Следящая антенна БПЛА'
+                href: misc/requests/FR0003.md
+              - name: 'FR0004: GPS-трекинг'
+                href: misc/requests/FR0004.md
+              - name: 'FR0005: Навыки Алисы, умной колонки Сбера'
+                href: misc/requests/FR0005.md
+              - name: 'FR0006: Воспроизведение записи ПСР'
+                href: misc/requests/FR0006.md
+              - name: 'FR0007: Автоматическая заливка и контроль навигаторов'
+                href: misc/requests/FR0007.md
+              - name: 'FR0008: Создание ориентировки на основе заявки'
+                href: misc/requests/FR0008.md
+              - name: 'FR0009: Потребности и те, кто готов их реализовать'
+                href: misc/requests/FR0009.md
+              - name: 'FR0010: Карта поисков'
+                href: misc/requests/FR0010.md
+              - name: 'FR0011: Календарь волонтеров'
+                href: misc/requests/FR0011.md
+              - name: 'FR0012: КВ-Пейджер интегрированный в систему'
+                href: misc/requests/FR0012.md
+              - name: 'FR0013: Контроль параметров и ограничений'
+                href: misc/requests/FR0013.md
+              - name: 'FR0014: Импорт данных из внешних источников на сервер'
+                href: misc/requests/FR0014.md
+              - name: 'FR0015: Терминал для самостоятельной регистрации в штабе'
+                href: misc/requests/FR0015.md
+              - name: 'FR0016: Движок реального времени'
+                href: misc/requests/FR0016.md
+              - name: 'FR0017: Система старается делать всё сама'
+                href: misc/requests/FR0017.md
