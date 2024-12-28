@@ -53,8 +53,23 @@ items:
           - name: Данные
             href: domain/data/index.md
             items:
-              - name: Заявка на поиск
+              - name: Физлицо
+                href: domain/data/person.md
+              - name: Пользователь
+                href: domain/data/user.md
+              - name: Заявка
                 href: domain/data/issue.md
+              - name: Регион
+                href: domain/data/region.md
+              - name: Заявитель
+                href: domain/data/applicant.md
+              - name: Субъект
+                href: domain/data/entity.md
+              - name: Подразделение
+                href: domain/data/branch.md
+
+              - name: Учётная запись
+                href: domain/data/account.md
       - name: Общие требования
         href: development/reqspec/index.md
         items:
